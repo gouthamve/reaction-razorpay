@@ -5,9 +5,3 @@ Router.map ->
     template: 'razorpay'
     waitOn: ->
       return ReactionCore.Subscriptions.Packages
-  @route 'razorpayPayment',
-    path: 'razorpay',
-    where: 'server',
-    action: ->
-      console.log @.request.body
-      @.response.end "success"

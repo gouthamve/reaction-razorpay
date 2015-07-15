@@ -28,14 +28,14 @@ ReactionCore.registerPackage
     # configures template for checkout
     # paymentMethod dynamic template
     {
-      template: 'codPaymentForm'
+      template: 'razorpayPaymentForm'
       provides: 'paymentMethod'
     }
   ]
   # array of permission objects
   permissions: [
     {
-      label: "COD"
+      label: "Razorpay"
       permission: "dashboard/payments"
       group: "Shop Settings"
     }
