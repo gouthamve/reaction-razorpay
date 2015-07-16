@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Reaction Razorpay - Razorpay payments for Reaction Commerce",
   name: "gouthamve:reaction-razorpay",
-  version: "0.0.1",
+  version: "1.0.0",
   git: "https://github.com/gouthamve/reaction-razorpay.git"
 });
 

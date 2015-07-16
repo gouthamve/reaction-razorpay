@@ -5,7 +5,7 @@
 <div class="row">
   <div class="col-md-6 well">
      {{#autoForm collection="ReactionCore.Collections.Packages" schema="ReactionCore.Schemas.RazorpayPackageConfig" doc=packageData type="update" id="razorpay-update-form"}}
-      {{>afQuickField name='settings.key_id'}}
+      {{>afQuickField name='settings.public.key_id'}}
       {{>afQuickField name='settings.key_secret'}}
       <button type="submit" class="btn btn-primary pull-right">Update</button>
     {{/autoForm}}
