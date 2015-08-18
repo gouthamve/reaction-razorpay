@@ -1,8 +1,8 @@
-reaction-cod
+reaction-razorpay
 =============
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 
-Meteor package adds COD Payments for Reaction Commerce.
+Meteor package adds Razorpay Payments for Reaction Commerce.
 
 This is a prototype module -> pull requests are celebrated, feedback encouraged.
 
