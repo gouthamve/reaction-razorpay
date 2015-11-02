@@ -1,16 +1,16 @@
 Package.describe({
   summary: "Reaction Razorpay - Razorpay payments for Reaction Commerce",
   name: "gouthamve:reaction-razorpay",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/gouthamve/reaction-razorpay.git"
 });
 
 Package.onUse(function(api, where) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@1.2.1');
   api.use("meteor-platform");
   api.use("coffeescript");
   api.use("less");
-  api.use("reactioncommerce:core@0.5.0");
+  api.use("reactioncommerce:core@0.9.4");
   api.use("http");
 
   api.addFiles("server/register.coffee", ["server"]); // register as a reaction package
